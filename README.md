@@ -1,5 +1,7 @@
 # Reproduction steps for Illegal instruction (core dumped) on dotnet build in docker
 
+1. Try build image `podman build --no-cache .`
+
 ## My setup
 #### Mac M4
 ````bash
@@ -27,7 +29,7 @@ podman -v
 ###### Extension: Podman
 Rosetta: Enabled
 
-## How to reproduce?
+## How did i set this repo up?
 1. Init new project `dotnet new console`
 2. Add Dockerfile that copies everything and runs dotnet build
 3. Try build image `podman build --no-cache .`
