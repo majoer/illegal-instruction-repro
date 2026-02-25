@@ -10,6 +10,18 @@ arch
 ````
 ![img.png](img.png)
 
+#### Dotnet
+```bash
+dotnet --version
+#10.0.103
+
+dotnet --list-sdks
+#8.0.416 [/usr/local/share/dotnet/sdk]
+#9.0.308 [/usr/local/share/dotnet/sdk]
+#9.0.310 [/usr/local/share/dotnet/sdk]
+#10.0.103 [/usr/local/share/dotnet/sdk]
+```
+
 #### Podman
 
 ```bash
