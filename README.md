@@ -18,11 +18,11 @@ podman -v
 #### Podman Desktop
 
 ###### Podman machine settings:
-CPU(s): 7
-Disk size: 100gb
-Memory: 4GB
-Machine with root privileges: disabled
-Provider Type: Apple HyperVisor
+- CPU(s): 7
+- Disk size: 100gb
+- Memory: 4GB
+- Machine with root privileges: disabled
+- Provider Type: Apple HyperVisor
 
 ###### Extension: Podman
 Rosetta: Enabled
