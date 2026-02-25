@@ -40,6 +40,6 @@ Rosetta: Enabled
   - With just redis it fails about 50% of builds
   - With a normal amount of dependencies its almost guaranteed to fail
 - Changing the Podman Machine provider-type to LibKRun is the only way i have found to eliminate the issue. 
-  - A side effect is that i start a mssql images unless i use AppleHypervisor with Rosetta.
+  - A side effect is that i cant start the mssql image in podman, unless i use AppleHypervisor with Rosetta.
     - I need to switch Podman Machine depending on which one i want to run, and i cant run mssql and dotnet build on the same machine.
     - Image: https://hub.docker.com/r/microsoft/mssql-server
