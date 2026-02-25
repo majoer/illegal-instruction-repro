@@ -1,4 +1,4 @@
-# Reproduction steps for Illegal instruction (core dumped) on dotnet build in docker
+# Reproduction steps for Illegal instruction (core dumped) on dotnet build in podman
 
 1. Try build image `podman build --no-cache .`
 
