@@ -1,6 +1,6 @@
 # Reproduction steps for Illegal instruction (core dumped) on dotnet build in podman
 
-1. Add some dependencies to increase the odds of failure. Uncomment some of the ones already in .csproj
+1. Add/remove some dependencies to change the odds of failure. (Un)comment some of the ones already in .csproj
 2. Try build image `podman build --no-cache .`
 
 ## My setup
